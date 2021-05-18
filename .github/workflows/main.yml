@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: shellspec
 
 # Controls when the action will run. 
 on:
@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run shellspec
-        run: shellspec spec/resource-count-*
+        run: shellspec spec/*_spec.sh
